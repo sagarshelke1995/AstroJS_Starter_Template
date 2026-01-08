@@ -1,0 +1,36 @@
+<nav class="bg-white shadow-lg border-b border-gray-200/50 sticky top-0 z-[599]">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+         <div class="flex items-center">
+            <a class="flex items-center space-x-3 group z-50" href="/" data-discover="true">
+               <span class="text-xl font-bold bg-gradient-to-r from-blue-600 via-blue-700 to-purple-700 bg-clip-text text-transparent">Header</span>
+            </a>
+         </div>
+         <div class="hidden md:flex items-center">
+            <div class="flex bg-gray-50 backdrop-blur-sm rounded-xl p-1 px-1.5 border border-gray-200 space-x-3">
+                <!-- <a class="px-6 py-2.5 rounded-md text-sm font-semibold transition-all duration-300 bg-blue-600 hover:bg-purple-600 text-white shadow-lg hover:text-gray-100" href="/">Home</a>  -->
+                <a class="px-6 py-2.5 rounded-md text-sm font-semibold transition-all duration-300 hover:text-blue-600 hover:bg-white shadow-indigo-100 scale-105" href="/">Home</a> 
+                <a class="px-6 py-2.5 rounded-md text-sm font-semibold transition-all duration-300 hover:text-blue-600 hover:bg-white shadow-indigo-100 scale-105" href="/about-us/">About</a> 
+                <a class="px-4 py-2.5 rounded-md text-sm font-semibold transition-all duration-200 hover:text-blue-600 hover:bg-white" href="/contact-us/" data-discover="true">Contact Us</a>
+                <a class="px-3 py-2.5 rounded-md text-sm font-semibold transition-all duration-200 hover:text-blue-600 hover:bg-white" href="/faq/" data-discover="true">faq</a> 
+               </div>
+         </div>
+         <div class="flex items-center md:space-x-2 md:hidden">
+            <div class="relative rounded-full p-1">
+               <input type="checkbox" id="menuToggle" class="peer hidden"> 
+               <label for="menuToggle" class="hamburger cursor-pointer relative z-[699]">
+                  <svg viewBox="0 0 32 32">
+                     <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                     <path class="line" d="M7 16 27 16"></path>
+                  </svg>
+               </label>
+               <section class="fixed -top-1 left-0 overflow-y-scroll h-screen w-screen bg-black/30 z-40 transition-transform duration-500 -translate-x-full peer-checked:translate-x-0">
+                  <div class="px-2">
+                     <div class="px-2 pt-2 pb-3 space-y-2 bg-white rounded-2xl shadow-xl mt-2 border border-gray-100"><a class="block px-4 py-3 rounded-xl text-base font-semibold font-bold text-blue-600 bg-blue-50 mt-16" href="/">Home</a> <a class="block px-4 py-3 rounded-xl text-base font-semibold text-gray-600 hover:text-blue-600 hover:bg-gray-50" href="/country/">Country </a><a class="block px-4 py-3 rounded-xl text-base font-semibold text-gray-600 hover:text-blue-600 hover:bg-gray-50" href="/converter/">Converter </a><a class="block px-4 py-3 rounded-xl text-base font-semibold text-gray-600 hover:text-blue-600 hover:bg-gray-50" href="/contact-us/">Contact </a><a class="block px-4 py-3 rounded-xl text-base font-bold bg-gradient-to-bl from-blue-600 to-blue-700 hover:from-purple-600 hover:via-purple-800 text-white text-center" href="/map/">Live Map</a></div>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+   </div>
+</nav>

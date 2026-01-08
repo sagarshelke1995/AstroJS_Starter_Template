@@ -1,0 +1,3 @@
+#1 Create astro aap using --> npm create astro@latest 
+#2 Add tailwind css --> npx Astro add tailwind 
+#3 Remove astro-dev-toolbar from astro.config.mjs --> devToolbar: { enabled: false, }, due to seo check 
