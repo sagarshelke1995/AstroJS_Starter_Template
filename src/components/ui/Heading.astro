@@ -1,0 +1,31 @@
+---
+type HeadingTag = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+
+interface Props {
+  tag?: HeadingTag;
+  classList?: string;
+}
+
+const {
+  tag = "h2",
+  classList = "",
+  ...rest
+} = Astro.props as Props;
+
+const sizeClasses: Record<HeadingTag, string> = {
+    h1: "text-2xl",
+    h2: "text-xl",
+    h3: "text-lg",
+    h4: "text-md",
+    h5: "text-sm",
+    h6: "text-xs"
+};
+
+const base = "font-medium";
+const CustomTag = tag;
+
+---
+
+<CustomTag class:list={[base, sizeClasses[tag], classList]} {...rest}>
+  <slot />
+</CustomTag>

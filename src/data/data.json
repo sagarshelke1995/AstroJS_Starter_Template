@@ -1,0 +1,41 @@
+[
+   {
+    "author": {
+      "name": "Auth 1",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    "title": "GEOSCIENCE MUSEUM GWALIOR",
+    "description": "Learn how to build fast, scalable, and SEO-friendly web applications using modern frameworks and tools.",
+    "category": "musium",
+    "timing": "Timing: 10:00AM -05:00PM (Monday Closed)",
+    "Address": "Victoria Building, Old, Jiwaji Chowk, Maharaj Bada, Topi Bazar",
+    "hero": "musium.jpeg",
+    "time" : "5th jan"
+  },
+  {
+    "author": {
+      "name": "Auth 1",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    "title": "Gwalior Fort",
+    "description": "Learn how to build fast, scalable, and SEO-friendly web applications using modern frameworks and tools.",
+    "category": "fort",
+    "timing": "Timing: 06:00 AM - 06:00 PM",
+    "Address": "Fort Campus, Near Post Office, Gwalior Fort, Gwalior, Madhya Pradesh 474001",
+    "hero": "fort.jpg",
+    "time" : "5th jan"
+  },
+  {
+    "author": {
+      "name": "Auth 1",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    "title": "Tomb of Muhammad Ghaus",
+    "description": "Learn how to build fast, scalable, and SEO-friendly web applications using modern frameworks and tools.",
+    "category": "Tomb",
+    "timing": "Timing: 06:00 AM - 06:00 PM",
+    "Address": "27 B, Tansen Rd, Tansen Nagar, Gwalior, Madhya Pradesh 474002",
+    "hero": "tomb.jpg",
+    "time" : "5th jan"
+  }
+]
